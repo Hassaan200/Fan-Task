@@ -1,0 +1,92 @@
+#fan-icon {
+    font-size: 300px;
+    color: rgba(128, 128, 128, 0.767);
+    transition: transform 0.5s linear, color 0.3s;
+}
+
+.spin {
+    animation: spin 1.2s linear infinite;
+
+}
+
+.spin1 {
+    animation: spin 0.5s linear infinite;
+}
+
+.spin2 {
+    animation: spin 2.5s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.btn {
+    background-color: rgba(128, 128, 128, 0.863);
+    color: rgba(255, 255, 255, 0.719);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+    margin-top: 20px;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+   
+   
+
+}
+
+#fan {
+    display: flex;
+    justify-content: center;
+    border: 5px solid rgba(128, 128, 128, 0.767);
+    max-width: fit-content;
+    margin: 0 auto;
+    border-radius: 180px;
+    
+}
+
+#fast {
+    text-align: center;
+}
+
+#slow {
+    text-align: center;
+}
+.btn2{
+    background-color: rgba(128, 128, 128, 0.767);
+    color: rgba(255, 255, 255, 0.644);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 50%;
+    font-size: large;
+    font-style: italic;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.945);
+}
+.btn:hover{
+    background-color:  rgba(255, 255, 255, 0.644);
+    font-size: larger;
+}
+.btn2:hover{
+    background-color:  rgba(255, 255, 255, 0.644);
+    font-size: larger;
+}
+.head{
+    color: rgba(255, 255, 255, 0.644);
+    text-align: center;
+    font-style: italic;
+    font-size: 55px;
+    margin-top: 15px;
+}
